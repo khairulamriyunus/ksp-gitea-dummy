@@ -11,6 +11,7 @@ class Leave extends Model
 {
     use SoftDeletes, LogsActivity;
 
+    // this is the table name
     protected $table = 'leaves';
 
     protected $fillable = [
