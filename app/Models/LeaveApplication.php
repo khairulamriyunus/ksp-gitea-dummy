@@ -13,6 +13,7 @@ class LeaveApplication extends Model
         'leave_type',
         'start_date',
         'end_date',
+        'reason',
     ];
 
     protected $casts = [
