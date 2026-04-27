@@ -10,5 +10,6 @@ class LeaveApplication extends Model
 
     protected $fillable = [
         'applicant_name',
+        'leave_type',
     ];
 }
