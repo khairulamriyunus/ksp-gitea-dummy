@@ -10,14 +10,5 @@ class LeaveApplication extends Model
 
     protected $fillable = [
         'applicant_name',
-        'leave_type',
-        'start_date',
-        'end_date',
-        'reason',
-    ];
-
-    protected $casts = [
-        'start_date' => 'date',
-        'end_date' => 'date',
     ];
 }
